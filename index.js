@@ -4,7 +4,8 @@ const cors = require('cors')
 app.use(cors())
 
 app.get('/', (req, res) => {
-  res.send('Hello, World!')
+  console.log('Hello, World!1')
+  res.send('Hello, World!1')
 })
 
 app.listen(3000, () => {
