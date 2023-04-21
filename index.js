@@ -11,6 +11,10 @@ app.get('/colors', (req, res) => {
   console.log('colors')
   res.send('colors')
 })
+app.get('/colors/red', (req, res) => {
+  console.log('colors/red')
+  res.send('colors/red')
+})
 app.get('/user', (req, res) => {
   console.log('user')
   res.send('user')
